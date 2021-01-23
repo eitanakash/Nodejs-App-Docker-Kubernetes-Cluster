@@ -1,0 +1,17 @@
+{
+  "name": "node-kube",
+  "version": "1.0.0",
+  "description": "node express with kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "en"
+  ],
+  "author": "en",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

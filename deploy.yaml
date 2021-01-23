@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-deployment
+spec:
+  selector:
+    matchLabels:
+      app: nodejs-deployment
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: nodejs-deployment
+    spec:
+      containers:
+      - name: nodejs-deployment
+        image: "30300101/nodejs-starter"
+        ports:
+        - containerPort: 3000
